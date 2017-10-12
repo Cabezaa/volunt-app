@@ -1,0 +1,42 @@
+
+
+<!--========== PAGE CONTENT ==========-->
+<!-- Feedback Form -->
+<div class="g-position--relative g-bg-color--primary">
+  <div class="g-container--md g-padding-y-125--xs">
+    <div class="g-text-center--xs g-margin-t-50--xs g-margin-b-80--xs">
+      <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Completa tus datos</p>
+      <h2 class="g-font-size-32--xs g-font-size-36--sm g-color--white">Ingreso</h2>
+    </div>
+    <form class="center-block g-width-500--sm g-width-550--md">
+
+      <div class="g-margin-b-30--xs">
+        <input type="email" class="form-control s-form-v3__input" placeholder="* Email" name="email"  [(ngModel)]="model.email" #email="ngModel">
+      </div>
+      <!-- <div class="g-margin-b-30--xs">
+        <input type="text" class="form-control s-form-v3__input" placeholder="DNI">
+      </div> -->
+      <div class="g-margin-b-30--xs">
+        <input type="password" class="form-control s-form-v3__input" placeholder="* Contraseña" name="password"  [(ngModel)]="model.password" #password="ngModel">
+      </div>
+
+      <div class="g-text-center--xs">
+        <button (click)='login()' type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">
+          Entrar
+        </button>
+
+        <a (click)='recuperarPass()' class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">
+          Olvidé su contrasena
+        </a>
+      </div>
+
+    </form>
+    <img class="s-mockup-v2" src="assets/img/mockups/pencil-01.png" alt="Fondo">
+
+  </div>
+</div>
+<!-- End Feedback Form -->
+<!--========== END PAGE CONTENT ==========-->
+
+<!-- Back To Top -->
+<a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
