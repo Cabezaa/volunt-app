@@ -1,4 +1,8 @@
 # Volunt-App
+
+Trello con la lista de actividades del proyecto: [Tablero](https://trello.com/b/gpTbvjgA/voluntariado)
+
+
 Actualmente se encuentra en progreso "Donaciones Lista"
 
 Tiene pseudo implementado toda la parte de login - registro. Pero faltaria adaptarla con el server
